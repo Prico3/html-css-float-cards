@@ -15,9 +15,24 @@ html{
 
 /* MAIN */
 
+/* Section Title */
+.section-title{
+    text-align: center;
+}
+.section-title h1{
+ font-size: 2.5rem;
+ color: rgb(229, 49, 112);
+ margin-bottom: 3rem;
+}
+.section-title p{
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+    }
+
 .container{
-    width: 70%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 5rem auto;
+    
 }
 
 .clearfix::after{
@@ -29,11 +44,18 @@ html{
 
 .blocco{
     background-color: #0f0e17;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 40px);
     float: left;
     margin: 20px;
-    
+    color: white;
 }
+
+img{
+    float: left;
+
+}
+
+
 
 
 
