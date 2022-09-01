@@ -48,7 +48,7 @@ html{
     float: left;
     margin: 20px;
     color: white;
-    text-align: center;
+    box-shadow:  10px 10px 8px 10px #888888;
 }
 
 img{
@@ -58,16 +58,25 @@ img{
 
 }
 
+.testo{
+    margin-top: 20px;
+    
+}
 
 .nome{
+    font-size: 1.8rem;
     font-weight: 900;
 }
 
-.testo{
-    text-align: left;
+
+.ruolo{
+    font-size: 1.5rem;
 }
 
-
+.email{
+    color: aqua;
+    font-size: larger;
+}
 
 
 
