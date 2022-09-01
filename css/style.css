@@ -8,4 +8,33 @@
 
 html{
     font-family: 'Fredoka', sans-serif;
+    font-size: 100%;
 }
+
+
+
+/* MAIN */
+
+.container{
+    background-color: black;
+    border: 2px solid yellow;
+    width: 70%;
+    margin: 0 auto;
+
+
+}
+
+.blocco{
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+ }
+
+ .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+ }
